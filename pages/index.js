@@ -1,16 +1,19 @@
 import CarForm from '../lib/CarForm'
-import styles from '../styles/Home.module.css'
-import Search from '../lib/search'
+import Feedback from '../lib/Feedback'
 
 export default function Home() {
   return (
     <div>
-        <Search/>
-        <br/>
-        <h1>CreateCar</h1>
+        
+        
+        <h1>createForm</h1>
         <CarForm/>
+        <br/>
+        <Feedback/>
+        
 
 
     </div>
   )
 }
+

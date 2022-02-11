@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
